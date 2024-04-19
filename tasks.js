@@ -19,6 +19,7 @@ function start() {
         tasksArr.push(newTask.value.toUpperCase());
         newNode.innerHTML = newTask.value;
         newTask.value = "";
+        document.getElementById("task").focus();
         
         // let inputTick = document.createElement("input");
         // inputTick.setAttribute("type", "checkbox");
